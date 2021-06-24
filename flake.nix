@@ -6,6 +6,10 @@
         url = "path:./B";
         inputs.nipxkgs.follows = "latest";
       };
+      naersk = {
+        url = "github:nmattia/naersk/master";
+        inputs.nixpkgs.follows = "latest";
+      };
   };
   outputs = { ... }: {};
 }
