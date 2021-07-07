@@ -3,7 +3,7 @@
   inputs = {
     nixpkgs.url = "github:nixos/nixpkgs";
     C = {
-      url = "path:./B/C";
+      url = "path:./C";
       inputs = {
         nixpkgs.follows = "nixpkgs";
       };
